@@ -34,6 +34,18 @@ main>.container {
     color: var(--at-secondary-color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--at-primary-color);
+}
+
+.odd{
+    font-weight: 400;
+}
+
+.even{
+    font-weight: bold;
+}
+
 /*-- BUTTON STYLES OVERRIDE BOOTSTRAP STYLES --*/
 .btn-outline-primary{
     color: var(--at-dark-color);
