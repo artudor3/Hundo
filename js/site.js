@@ -35,14 +35,16 @@ function generateNumbers(start, end){
 function displayNumbers(numArr){
     let templateRows = '';
     for (let i = 0; i < numArr.length; i++){
-        
-        if (i % 2 == 0 && i > 0){
+
+        let num = numArr[i];
+
+        if (num % 2 == 0 && num > 0){
             className = "even";
         } else {
             className = "odd";
         }
         
-        let row = `<tr><td class="${className}">${i}</td></tr>`;
+        let row = `<tr><td class="${className}">${num}</td></tr>`;
         templateRows += row;
     }
     
