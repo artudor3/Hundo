@@ -18,46 +18,57 @@ main>.container {
 }
 
 
-.jsicon{
+.jsicon {
     color: #e2d304;
 }
-.bsicon{
+
+.bsicon {
     color: #800080;
 }
-.htmlicon{
+
+.htmlicon {
     color: #ff4500;
 }
-.cssicon{
+
+.cssicon {
     color: #0000ff;
 }
-.checklisticon{
+
+.checklisticon {
     color: var(--at-secondary-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--at-primary-color);
 }
 
-.odd{
+.odd {
     font-weight: 400;
 }
 
-.even{
+.even {
     font-weight: bold;
 }
 
 /*-- BUTTON STYLES OVERRIDE BOOTSTRAP STYLES --*/
-.btn-outline-primary{
+.btn-outline-primary {
     color: var(--at-dark-color);
     border-color: var(--at-secondary-color) !important;
 }
+
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
-.btn-outline-primary:focus{
+.btn-outline-primary:focus {
     border-color: var(--at-primary-color);
     background-color: var(--at-secondary-color);
 }
-.btn-primary{
+
+.btn-primary {
     color: white !important;
     background-color: var(--at-secondary-color) !important;
     border-color: var(--at-secondary-color);
@@ -79,6 +90,125 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 1rem;
     color: var(--at-light-color);
 }
+
+.footerName {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.footerName2 {
+    font-size: 2rem;
+    font-family: 'Cinzel',
+        serif;
+}
+
+.footerName3 {
+    font-size: 2rem;
+    font-family: 'Courgette',
+        cursive;
+}
+
+.footerName4 {
+    font-size: 2rem;
+    font-family: 'Kaushan Script',
+        cursive;
+}
+
+.footerName5 {
+    font-size: 2rem;
+    font-family: 'Parisienne',
+        cursive;
+}
+
+.footerName6 {
+    font-size: 2rem;
+    font-family: 'El Messiri',
+        sans-serif;
+}
+.footerName7 {
+    font-size: 2rem;
+    font-family: 'Qwitcher Grypen',
+    cursive;
+}
+
+.footerName8 {
+    font-size: 2rem;
+    font-family: 'Oooh Baby',
+    cursive;
+}
+
+.footerName9 {
+    font-size: 2rem;
+    font-family: 'Playball',
+    cursive;
+}
+
+.footerName10 {
+    font-size: 2rem;
+    font-family: 'Marck Script',
+    cursive;
+}
+
+.footerName11 {
+    font-size: 2rem;
+    font-family: 'Fredericka the Great',
+    cursive;
+}
+
+.footerName12 {
+    font-size: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+}
+
+.footerName13 {
+    font-size: 2rem;
+    font-family: 'Alegreya SC',
+    serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.footerName14 {
+    font-size: 2rem;
+font-family: 'Alike',
+serif;
+}
+
+.footerName15 {
+    font-size: 2rem;
+    font-family: 'Cormorant SC',
+    serif;
+}
+
+.footerName16 {
+    font-size: 2rem;
+    font-family: 'Grechen Fuemen',
+    cursive;
+}
+
+.footerName17 {
+    font-size: 2rem;
+font-family: 'Fondamento', cursive;
+font-style: normal;
+}
+
+.footerName1 {
+    font-size: 2rem;
+}
+
+.footerName1 {
+    font-size: 2rem;
+}
+
+.footerName1 {
+    font-size: 2rem;
+}
+
+
+
+
+
+/* ------------------------- */
 
 .sticky-footer {
     position: sticky;
